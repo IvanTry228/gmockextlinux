@@ -1,0 +1,73 @@
+Start testing: Mar 08 12:05 UTC
+----------------------------------------------------------
+1/1 Testing: gmock_module_tests
+1/1 Test: gmock_module_tests
+Command: "/mnt/p/DotNetProj/gmockextlinux/build/gmock_module_tests"
+Directory: /mnt/p/DotNetProj/gmockextlinux/build
+"gmock_module_tests" start time: Mar 08 12:05 UTC
+Output:
+----------------------------------------------------------
+[==========] Running 19 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 6 tests from OpenTest
+[ RUN      ] OpenTest.MockReturnsCustomFd
+[       OK ] OpenTest.MockReturnsCustomFd (0 ms)
+[ RUN      ] OpenTest.MockReturnsError
+[       OK ] OpenTest.MockReturnsError (0 ms)
+[ RUN      ] OpenTest.VerifyArguments
+[       OK ] OpenTest.VerifyArguments (0 ms)
+[ RUN      ] OpenTest.MultipleCalls
+[       OK ] OpenTest.MultipleCalls (0 ms)
+[ RUN      ] OpenTest.RestoreRealFunction
+[       OK ] OpenTest.RestoreRealFunction (0 ms)
+[ RUN      ] OpenTest.DelegateToReal
+[       OK ] OpenTest.DelegateToReal (0 ms)
+[----------] 6 tests from OpenTest (0 ms total)
+
+[----------] 6 tests from ReadWriteTest
+[ RUN      ] ReadWriteTest.MockReadReturnsFakeData
+[       OK ] ReadWriteTest.MockReadReturnsFakeData (0 ms)
+[ RUN      ] ReadWriteTest.MockReadReturnsEOF
+[       OK ] ReadWriteTest.MockReadReturnsEOF (0 ms)
+[ RUN      ] ReadWriteTest.MockReadReturnsError
+[       OK ] ReadWriteTest.MockReadReturnsError (0 ms)
+[ RUN      ] ReadWriteTest.MockWriteCapturesData
+[       OK ] ReadWriteTest.MockWriteCapturesData (0 ms)
+[ RUN      ] ReadWriteTest.MockWritePartial
+[       OK ] ReadWriteTest.MockWritePartial (0 ms)
+[ RUN      ] ReadWriteTest.VerifyFileDescriptor
+[       OK ] ReadWriteTest.VerifyFileDescriptor (0 ms)
+[----------] 6 tests from ReadWriteTest (0 ms total)
+
+[----------] 3 tests from StatTest
+[ RUN      ] StatTest.MockReturnsCustomStat
+[       OK ] StatTest.MockReturnsCustomStat (0 ms)
+[ RUN      ] StatTest.MockReturnsNotFound
+[       OK ] StatTest.MockReturnsNotFound (0 ms)
+[ RUN      ] StatTest.MockReportsDirectory
+[       OK ] StatTest.MockReportsDirectory (0 ms)
+[----------] 3 tests from StatTest (0 ms total)
+
+[----------] 4 tests from BypassTest
+[ RUN      ] BypassTest.MockInterceptsGetpid
+[       OK ] BypassTest.MockInterceptsGetpid (0 ms)
+[ RUN      ] BypassTest.BypassPassesThrough
+[       OK ] BypassTest.BypassPassesThrough (0 ms)
+[ RUN      ] BypassTest.ScopedBypass
+[       OK ] BypassTest.ScopedBypass (0 ms)
+[ RUN      ] BypassTest.RealModuleFuncPtr
+[       OK ] BypassTest.RealModuleFuncPtr (0 ms)
+[----------] 4 tests from BypassTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 19 tests from 4 test suites ran. (1 ms total)
+[  PASSED  ] 19 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"gmock_module_tests" end time: Mar 08 12:05 UTC
+"gmock_module_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 08 12:05 UTC

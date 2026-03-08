@@ -1,0 +1,2 @@
+gmock_module_tests 2 0.00555804
+---
